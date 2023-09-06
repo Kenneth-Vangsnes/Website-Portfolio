@@ -7,7 +7,7 @@ const Section = styled.div`
   display: flex;
   flex-direction: column;
   align-content: center;
-  background-color: #4e4eff;
+  background-color: whitesmoke;
 
   @media only screen and (max-width: 768px) {
   }
@@ -29,6 +29,7 @@ const Container = styled.div`
 const Title = styled.h1`
   font-size: 40px;
   color: #796767;
+  margin: 25px;
 `
 
 const SubTitle = styled.h2`
@@ -37,14 +38,17 @@ const SubTitle = styled.h2`
   text-align: center;
   justify-items: center;
   color: gray;
+  margin: 25px;
 `
 
 const Button = styled.button`
   padding: 10px;
+  color: white;
   width: 230px;
   border-radius: 6px;
   border: none;
   cursor: pointer;
+  background-color: #f89e2f;
 `
 
 const Home = () => {

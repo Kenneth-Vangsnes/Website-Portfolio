@@ -7,7 +7,7 @@ const Section = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #4e4eff;
+  background-color: whitesmoke;
 `
 
 const Container = styled.div`

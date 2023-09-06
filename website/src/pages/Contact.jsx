@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 const Section = styled.div`
   height: 100vh;
-  background-color: bisque;
+  background-color: whitesmoke;
   scroll-snap-align: center;
   display: flex;
   flex-direction: column;

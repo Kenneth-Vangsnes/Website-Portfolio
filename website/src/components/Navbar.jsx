@@ -19,17 +19,17 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: bisque;
+  background-color: #f89e2f;
 
   @media only screen and (max-width: 768px) {
-    background-color: blue;
+    background-color: #f89e2f;
   }
 `
 
 const Name = styled.div`
-  font-size: 35px;
+  font-size: 50px;
   color: white;
-  margin-left: 20px;
+  margin-left: 50px;
 
   @media only screen and (max-width: 768px) {
     font-size: 50px;
@@ -38,6 +38,7 @@ const Name = styled.div`
 `
 
 const List = styled.ul`
+  color: white;
   list-style: none;
   display: flex;
   align-items: center;
@@ -55,7 +56,7 @@ const ListItem = styled.li`
   cursor: pointer;
 
   @media only screen and (max-width: 768px) {
-    color: orange;
+    color: #f89e2f;
     font-size: 40px;
   }
 `
@@ -63,6 +64,7 @@ const ListItem = styled.li`
 const MobileMenu = styled.span`
   height: 50px;
   width: 50px;
+  color: white;
   cursor: pointer;
   margin-right: 10px;
   z-index: 1;
@@ -74,12 +76,12 @@ const MobileMenu = styled.span`
 
 const MobileMenuList = styled.ul`
   display: flex;
+  color: white;
   flex-direction: column;
   position: absolute;
-  top: 0;
+  top: 40px;
   left: 0;
-  background-color: gray;
-  opacity: 0.7;
+  background-color: #f89e2f;
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -88,6 +90,7 @@ const MobileMenuList = styled.ul`
 const MobileMenuListItem = styled.li`
   list-style: none;
   font-size: 70px;
+  cursor: pointer;
 `
 
 const ToTheTop = styled.div`
