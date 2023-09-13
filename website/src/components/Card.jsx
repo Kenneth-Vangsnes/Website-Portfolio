@@ -31,7 +31,6 @@ const Button = styled.button`
 `
 
 const Card = ({ image, demoURL, github }) => {
-  console.log(demoURL)
   return (
     <Container style={{ backgroundImage: `url(${image})` }}>
       <Hovered>
