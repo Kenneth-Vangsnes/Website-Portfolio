@@ -68,6 +68,7 @@ const Home = () => {
           A frontend focused on building the Frontend of Websites and
           Webapplications that leads to the success of the overall product.
         </SubTitle>
+
         <Button onClick={() => handleClick("Portfolio")}>TO PROJECTS</Button>
       </Container>
     </Section>

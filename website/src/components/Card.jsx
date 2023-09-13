@@ -30,12 +30,17 @@ const Button = styled.button`
   cursor: pointer;
 `
 
-const Card = ({ image }) => {
+const Card = ({ image, demoURL, github }) => {
+  console.log(demoURL)
   return (
     <Container style={{ backgroundImage: `url(${image})` }}>
       <Hovered>
-        <Button>{`This is id number 2`}</Button>
-        <Button>Code</Button>
+        <a href={demoURL} target="_blank" rel="noopener noreferrer">
+          Demo
+        </a>
+        <a href={github} target="_blank" rel="noopener noreferrer">
+          GitHub
+        </a>
       </Hovered>
     </Container>
   )

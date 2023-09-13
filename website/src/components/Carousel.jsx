@@ -39,7 +39,11 @@ const Carousel = ({ projects }) => {
 
   return (
     <Container>
-      <Card image={projects[currentIndex].image} />
+      <Card
+        image={projects[currentIndex].image}
+        demoURL={projects[currentIndex].demoURL}
+        github={projects[currentIndex].github}
+      />
       <NavigationContainer>
         <NavigateBeforeIcon
           onClick={handlePrevious}
