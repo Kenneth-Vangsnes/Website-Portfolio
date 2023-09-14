@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import styled from "styled-components"
 import Card from "./Card"
 import NavigateBeforeIcon from "@mui/icons-material/NavigateBefore"
@@ -10,6 +11,13 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
 `
+
+const Title = styled.div`
+  display: flex;
+  color: #f89e2f;
+  justify-content: center;
+`
+
 const NavigationContainer = styled.div`
   display: flex;
   flex-direction: row;
@@ -39,6 +47,7 @@ const Carousel = ({ projects }) => {
 
   return (
     <Container>
+      <Title>{projects[currentIndex].name}</Title>
       <Card
         image={projects[currentIndex].image}
         demoURL={projects[currentIndex].demoURL}
