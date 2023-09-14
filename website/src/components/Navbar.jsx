@@ -80,7 +80,7 @@ const MobileMenuList = styled.ul`
   flex-direction: column;
   position: absolute;
   top: 40px;
-  left: 0;
+  left: -40px;
   background-color: #f89e2f;
   width: 100%;
   justify-content: center;
@@ -89,7 +89,7 @@ const MobileMenuList = styled.ul`
 
 const MobileMenuListItem = styled.li`
   list-style: none;
-  font-size: 70px;
+  font-size: 45px;
   cursor: pointer;
 `
 
