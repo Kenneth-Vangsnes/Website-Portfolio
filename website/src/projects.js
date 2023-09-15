@@ -16,7 +16,7 @@ export const projects = [
   {
     id: 2,
     name: "Weather site",
-    image: "",
+    image: "https://images2.imgbox.com/9c/2a/OBEBCaXi_o.jpg",
     demoURL: "https://test-kappa-snowy.vercel.app/",
     github: "https://github.com/Kenneth-Vangsnes/test",
   },
