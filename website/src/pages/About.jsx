@@ -80,11 +80,14 @@ const About = () => {
         </Left>
         <Right>
           <Text>
-            Another web developer portfolio worth mentioning is Adham
-            Dannaway’s. The homepage features an eye-catching graphic that
-            demonstrates his coding and design skills. Despite its simple
-            appearance, the portfolio displays elegance and meticulous attention
-            to detail.
+            In 2022 I took the leap and quit my job to start becoming a front
+            end developer.
+            <br /> It has been a journey filled with learning new skills,
+            getting frustrated and overcoming challenges. I have learned a lot
+            the past year, not only about coding but about myself.
+            <br /> My motivation today is even stronger than it was when I
+            started learning to code. And I am looking forward to becoming a
+            full stack developer.
           </Text>
         </Right>
       </Container>
