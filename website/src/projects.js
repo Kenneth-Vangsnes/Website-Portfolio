@@ -1,3 +1,5 @@
+/* Using imgbox.com as host for preview pictures in portfolio */
+
 export const projects = [
   {
     id: 1,
