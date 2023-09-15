@@ -37,7 +37,12 @@ const LinkElement = styled.a`
 
 const Card = ({ image, demoURL, github }) => {
   return (
-    <Container style={{ backgroundImage: `url(${image})` }}>
+    <Container
+      style={{
+        backgroundImage: `url(${image})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}>
       <Hovered>
         <LinkElement href={demoURL} target="_blank" rel="noopener noreferrer">
           Demo
